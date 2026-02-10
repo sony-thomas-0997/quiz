@@ -11,7 +11,7 @@ function MenuComponent() {
   return (
     <div>
       <Routes>
-        <Route path="*" element={<Intropage/>}></Route>
+        <Route path="/" element={<Intropage/>}></Route>
         <Route path="Questions" element={<Questiondisplaypage/>}></Route>
         <Route path="Result" element={<Result />}></Route>
         <Route path="Error" element={<Errorpage />}></Route>
